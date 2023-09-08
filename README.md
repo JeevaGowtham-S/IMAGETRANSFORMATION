@@ -8,19 +8,34 @@ Anaconda - Python 3.7
 
 ## Algorithm:
 ### Step1:
+Import the necessary libraries and read the original image and save it a image variable.
 <br>
 
 ### Step2:
+Write a code to translation of the image.
 <br>
 
 ### Step3:
+Write a code for scaling of the image.
 <br>
 
 ### Step4:
+Write a code for shearing of the image.
 <br>
 
 ### Step5:
+Write a code for reflection of the image.
 <br>
+
+### Step6:
+Write a code to rotation of the image.
+
+### Step7:
+Write a code to cropping of the image.
+
+### Step8:
+Display all the Transformed images.
+
 
 ## Program:
 
@@ -114,16 +129,19 @@ plt.show()
 
 v)Image Rotation:
 ```
-angle=np.radians(10)
+angle = 90 
+height, width = image.shape[:2]
+rotation_matrix = cv2.getRotationMatrix2D((width / 2, height / 2), angle, 1)
+rotated_image = cv2.warpAffine(image, rotation_matrix, (width, height))
+plt.figure(figsize=(10, 5))
+plt.subplot(1, 2, 1)
+plt.title('Original Image')
+plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
+plt.subplot(1, 2, 2)
+plt.title('Rotated Image')
+plt.imshow(cv2.cvtColor(rotated_image, cv2.COLOR_BGR2RGB))
 
-matrix=np.float32([[np.cos(angle),-np.sin(angle),0],
-                                [np.sin(angle),np.cos(angle),0],
-                                [0,0,1]])
-
-Rotated_image=cv.warpPerspective(image,matrix,(cols,rows))
-
-plt.axis("off")
-plt.imshow(Rotated_image)
+plt.show()
 
 ```
 
@@ -131,11 +149,15 @@ plt.imshow(Rotated_image)
 
 vi)Image Cropping:
 ```
-crop_img = image[150:600 ,350:900]
+x1, y1 = 100, 100 
+x2, y2 = 300, 300 
+cropped_image = image[y1:y2, x1:x2]
+plt.subplot(1, 2, 2)
+plt.title('Cropped Image')
+plt.imshow(cv2.cvtColor(cropped_image, cv2.COLOR_BGR2RGB))
 
-plt.axis("off")
-plt.imshow(crop_img)
 plt.show()
+
 
 
 
@@ -187,8 +209,9 @@ plt.show()
 
 
 ### v)Image Rotation:
+![Screenshot 2023-09-08 195814](https://github.com/JeevaGowtham-S/IMAGETRANSFORMATION/assets/118042624/647c2bc5-7675-4b09-9143-a110bcf4fc1a)
 
-![Screenshot 2023-09-08 142523](https://github.com/JeevaGowtham-S/IMAGETRANSFORMATION/assets/118042624/936e63a0-35ca-4231-9ec1-f7dae2aa0532)
+
 
 
 <br>
@@ -198,7 +221,11 @@ plt.show()
 
 
 
-### vi)Image Cropping
+### vi)Image Cropping:
+
+![Screenshot 2023-09-08 200126](https://github.com/JeevaGowtham-S/IMAGETRANSFORMATION/assets/118042624/f8a4d147-e1de-4f05-8aa9-e74f62c7986f)
+
+
 <br>
 <br>
 <br>
