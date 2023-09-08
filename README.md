@@ -34,9 +34,9 @@ import numpy as np
 import matplotlib.pyplot as plt 
 import cv2 as cv
 ```
-
-#plotting of an image :
 ```
+#plotting of an image :
+
 image = cv.imread("tree.jpg")
 image = cv.cvtColor(image, cv.COLOR_BGR2RGB)
 
