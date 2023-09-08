@@ -144,35 +144,53 @@ plt.show()
 
 ```
 ## Output:
-### i)Image Translation
+### i)Image Translation:
+![Screenshot 2023-09-08 141339](https://github.com/JeevaGowtham-S/IMAGETRANSFORMATION/assets/118042624/3695f48b-c3b1-4b9b-bfa8-fd6e25764055)
+
+![Screenshot 2023-09-08 194235](https://github.com/JeevaGowtham-S/IMAGETRANSFORMATION/assets/118042624/449db3bd-ec0d-4040-aaa2-5e215228fe18)
+
 <br>
 <br>
 <br>
 <br>
 
-### ii) Image Scaling
-<br>
-<br>
-<br>
-<br>
+### ii) Image Scaling:
+![Screenshot 2023-09-08 194253](https://github.com/JeevaGowtham-S/IMAGETRANSFORMATION/assets/118042624/c170acaa-a696-4647-8531-e09efc21d762)
 
-
-### iii)Image shearing
-<br>
-<br>
-<br>
-<br>
-
-
-### iv)Image Reflection
 <br>
 <br>
 <br>
 <br>
 
 
+### iii)Image shearing:
+![Screenshot 2023-09-08 142317](https://github.com/JeevaGowtham-S/IMAGETRANSFORMATION/assets/118042624/d9e454ce-8402-4cbc-be23-e2935d483369)
+![Screenshot 2023-09-08 142327](https://github.com/JeevaGowtham-S/IMAGETRANSFORMATION/assets/118042624/43f6ec3a-b5e7-4292-a6d9-99c5691ecc40)
 
-### v)Image Rotation
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+### iv)Image Reflection:
+![Screenshot 2023-09-08 141339](https://github.com/JeevaGowtham-S/IMAGETRANSFORMATION/assets/118042624/851212e9-5a96-43f0-97be-550c9cc13b86)
+![Screenshot 2023-09-08 142608](https://github.com/JeevaGowtham-S/IMAGETRANSFORMATION/assets/118042624/6d521577-9378-4ea7-9f68-9685e15492f3)
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+### v)Image Rotation:
+
+![Screenshot 2023-09-08 142523](https://github.com/JeevaGowtham-S/IMAGETRANSFORMATION/assets/118042624/936e63a0-35ca-4231-9ec1-f7dae2aa0532)
+
+
 <br>
 <br>
 <br>
