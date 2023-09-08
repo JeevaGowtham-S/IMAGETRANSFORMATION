@@ -26,11 +26,14 @@ Anaconda - Python 3.7
 ```python
 Developed By: JEEVAGOWTHAM S
 Register Number:  212222230053
+```
 i)Image Translation:
 
+```
 import numpy as np
 import matplotlib.pyplot as plt 
 import cv2 as cv
+```
 
 #plotting of an image :
 
